@@ -21,13 +21,13 @@
 	<key>guidesAreVisible</key>
 	<true/>
 	<key>lastCheckDate</key>
-	<date>2014-10-23T11:26:30Z</date>
+	<date>2014-10-23T14:02:30Z</date>
 	<key>layout</key>
 	<dict>
 		<key>keyframeTimelineHeight</key>
 		<real>124</real>
 		<key>mainWindowFrame</key>
-		<string>27 51 1271 977 0 0 1680 1028 </string>
+		<string>105 51 1271 977 0 0 1680 1028 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -533,7 +533,7 @@ window.onload=function(){
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>is statting in </string>
+							<string>is starting in </string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -545,7 +545,7 @@ window.onload=function(){
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>72px</string>
+							<string>73px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -934,7 +934,7 @@ window.onload=function(){
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>403px</string>
+							<string>401px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -947,6 +947,12 @@ window.onload=function(){
 							<string>SizeRatio</string>
 							<key>objectValue</key>
 							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string></string>
 						</dict>
 						<dict>
 							<key>identifier</key>
