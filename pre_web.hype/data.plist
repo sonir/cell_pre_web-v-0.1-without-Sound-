@@ -7,8 +7,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierPosition</string>
 		<string>kPropertiesMenuItemIdentifierAnimated</string>
+		<string>kPropertiesMenuItemIdentifierPosition</string>
 	</array>
 	<key>documentVersion</key>
 	<string>160</string>
@@ -20,8 +20,17 @@
 	<false/>
 	<key>guidesAreVisible</key>
 	<true/>
+	<key>headHtml</key>
+	<string>	
+	&lt;style type="text/css"&gt;  
+&lt;!-- 
+html,body { height: 100%; }
+
+--&gt;  
+&lt;/style&gt;  
+	</string>
 	<key>lastCheckDate</key>
-	<date>2014-10-23T14:03:51Z</date>
+	<date>2014-10-23T15:09:54Z</date>
 	<key>layout</key>
 	<dict>
 		<key>keyframeTimelineHeight</key>
@@ -36,9 +45,13 @@
 				<key>oid</key>
 				<string>17</string>
 			</dict>
+			<dict>
+				<key>className</key>
+				<string>HeadHTMLEditor</string>
+			</dict>
 		</array>
 		<key>selectedTabIndex</key>
-		<integer>0</integer>
+		<integer>2</integer>
 		<key>showSceneTabView</key>
 		<true/>
 		<key>splitHeight</key>
@@ -68,7 +81,7 @@
 		<string>Latest</string>
 	</dict>
 	<key>oidCounter</key>
-	<integer>21</integer>
+	<integer>22</integer>
 	<key>resources</key>
 	<array>
 		<dict>
@@ -150,9 +163,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -228,9 +241,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>6</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -240,9 +253,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>6</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -264,18 +277,18 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>11</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>OriginalHeight</string>
 							<key>objectValue</key>
-							<string>367px</string>
+							<string>80px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -444,9 +457,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalHeight</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>80px</string>
+							<string>367px</string>
 						</dict>
 					</array>
 					<key>13</key>
@@ -459,9 +472,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -537,9 +550,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>8</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -549,9 +562,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>8</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -573,9 +586,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>14</key>
@@ -588,9 +601,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -666,9 +679,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>9</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -678,9 +691,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>9</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -702,9 +715,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>2</key>
@@ -717,9 +730,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -805,15 +818,15 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>164px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>164px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -835,33 +848,24 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>20</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>ActionsOnMouseClick</string>
+							<string>OriginalHeight</string>
 							<key>objectValue</key>
-							<array>
-								<dict>
-									<key>type</key>
-									<integer>0</integer>
-								</dict>
-								<dict>
-									<key>type</key>
-									<integer>0</integer>
-								</dict>
-							</array>
+							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -986,36 +990,45 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>ActionsOnMouseClick</string>
+							<key>objectValue</key>
+							<array>
+								<dict>
+									<key>type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>type</key>
+									<integer>0</integer>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
 							<string>space</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalHeight</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
 							<string>1px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
 						</dict>
 					</array>
 					<key>21</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>Position</string>
+							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>absolute</string>
+							<string>HTML Widget-1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderStyleTop</string>
+							<string>Position</string>
 							<key>objectValue</key>
-							<string>None</string>
+							<string>absolute</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1025,34 +1038,19 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>IFrameURL</string>
-							<key>objectValue</key>
-							<string></string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>IFrameHTML</string>
 							<key>objectValue</key>
 							<string>&lt;script src="http://otononaru.appspot.com/cdn/neume/neume.min.js"&gt;&lt;/script&gt;
-&lt;script src="http://otononaru.appspot.com/cdn/yutauozumi.com/cell/sound.js"&gt;&lt;/script&gt;</string>
+
+&lt;script src="http://otononaru.appspot.com/cdn/yutauozumi.com/cell/sound.js"&gt;&lt;/script&gt;
+
+&lt;script src="http://otononaru.appspot.com/cdn/yutauozumi.com/cell/control.js"&gt;&lt;/script&gt;</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayName</string>
+							<string>IFrameURL</string>
 							<key>objectValue</key>
-							<string>HTML Widget-1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleBottom</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>660px</string>
+							<string></string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1062,9 +1060,27 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>660px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>OriginalHeight</string>
 							<key>objectValue</key>
 							<string>150px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleTop</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleBottom</string>
+							<key>objectValue</key>
+							<string>None</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1131,9 +1147,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1219,15 +1235,15 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>98px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>2</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>98px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1249,9 +1265,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>4</key>
@@ -1264,9 +1280,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1414,9 +1430,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>5</key>
@@ -1429,9 +1445,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1579,9 +1595,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>6</key>
@@ -1594,9 +1610,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1682,15 +1698,15 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>196px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>196px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1712,9 +1728,9 @@ window.onload=function(){
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 				</dict>
@@ -1764,9 +1780,7 @@ window.onload=function(){
 			<key>scrollViewOffset</key>
 			<string>{0, 0}</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>20</string>
-			</array>
+			<array/>
 			<key>showTimelineActions</key>
 			<false/>
 			<key>splitHeight</key>
